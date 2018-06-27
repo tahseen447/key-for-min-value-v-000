@@ -8,10 +8,10 @@ def key_for_min_value(name_hash)
   if name_hash.length > 0
   name_hash.each do |key, value|
     if value < min_value
-    #  puts "#{value}"
-    #  min_value = value
-    #end
-#  end
+     puts "#{value}"
+     min_value = value
+    end
+ end
 end
 name_hash.key(min_value)
 end
